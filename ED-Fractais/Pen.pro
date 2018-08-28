@@ -7,7 +7,8 @@ SOURCES += \
     lib/pen.cpp \
     lib/cpen.cpp \
     prof/main.cpp \
-    lib/sfline.cpp
+    lib/sfline.cpp \
+    fractais.cpp
 
 HEADERS += \
     lib/cpen.h \
