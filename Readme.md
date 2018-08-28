@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-O seu objetivo é aprender recursão para implementar o código que produzirá os fractais da pasta `imagens`. Faça o máximo que puder. Se enganchar em algum, pesquise na internet.
+O seu objetivo é aprender recursão para implementar o código que produzirá os fractais da pasta `imagens`. Faça o máximo que puder.
 
 ## Instalação
 
@@ -31,7 +31,7 @@ A biblioteca está em `lib/cpen.h`. O projeto do *Qt Creator* já inclui as bibl
 
 #### Via make
 
-Se quiser compilar via `make`, basta editar o arquivo `fractal.c` (que deve conter a função `main`) dentro da pasta `fractais` e digitar, num terminal:
+Se quiser compilar via `make`, basta editar o arquivo `fractal.cpp` (que deve conter a função `main`) dentro da pasta `fractais` e digitar, num terminal:
 
 ```bash
 make fractal
@@ -41,7 +41,7 @@ O `Makefile` incluso já contém as intruções de compilação, porém consider
 
 #### Manual ####
 
-Caso não queira usar o `make`, você deverá compilar o seu arquivo `fractal.c` junto com os arquivos `lib/pen.cpp`, `lib/cpen.cpp` e `lib/sfline.cpp` e adicionar as bibliotecas `sfml-graphics`, `sfml-window` e `sfml-system` nessa ordem. Além disso, incluir a diretiva que permite uso de C++11 no seu compilador (a biblioteca SFML é escrita em C++).
+Caso não queira usar o `make`, você deverá compilar o seu arquivo `fractal.cpp` junto com os arquivos `lib/pen.cpp`, `lib/cpen.cpp` e `lib/sfline.cpp` e adicionar as bibliotecas `sfml-graphics`, `sfml-window` e `sfml-system` nessa ordem. Além disso, incluir a diretiva que permite uso de C++11 no seu compilador (a biblioteca SFML é escrita em C++).
 
 ### Meta da atividade ###
 
