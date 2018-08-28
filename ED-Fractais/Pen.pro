@@ -6,7 +6,6 @@ CONFIG -= qt
 SOURCES += \
     lib/pen.cpp \
     lib/cpen.cpp \
-    prof/main.cpp \
     lib/sfline.cpp \
     fractais.cpp
 
