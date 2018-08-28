@@ -63,13 +63,10 @@ Na pasta `imagens` você tem exemplos de fractais a serem implementados por voc�
     //anda pra frente e, se o valor for negativo, para trás
     void pen_walk(float distance);
 
-    //rotaciona, em graus, no sentido antihorário e, se negativo, horário
-    void pen_rotate(float angulo);
-
-    //vira pra esquerda (em graus)
+    //vira pra esquerda (em graus, no sentido antihorário)
     void pen_left(float angulo);
 
-    //vira pra direita (em graus)
+    //vira pra direita (em graus, no sentido horário)
     void pen_right(float angulo);
 
     //limpa todos os traços da tela
