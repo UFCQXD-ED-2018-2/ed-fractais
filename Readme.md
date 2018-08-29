@@ -4,6 +4,8 @@
 
 O seu objetivo é aprender recursão para implementar o código que produzirá os fractais da pasta `imagens`. Faça o máximo que puder.
 
+O mais importante é entender o componente fundamental do desenho, e onde estão as repetições.
+
 ## Instalação
 
 ### Ubuntu (e derivados do Debian)
@@ -53,9 +55,13 @@ Na pasta `imagens` você tem exemplos de fractais a serem implementados por voc�
     //JANELA
 
     //abre janela com dimensões informadas
+    //IMPORTANTE! Deve ser chamada uma única vez, antes de qualquer outra
+    //            das demais funções.
     void pen_open(unsigned int largura, unsigned int altura);
 
     //fecha a janela aberta e libera todos os recursos
+    //IMPORTANTE! Deve ser chamada uma única vez, após qualquer outra das
+    //            demais funções.
     void pen_close();
 
     //DESENHO    
