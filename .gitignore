@@ -42,6 +42,19 @@ target_wrapper.*
 # QtCreator CMake
 CMakeLists.txt.user*
 
+#---- Created by https://www.gitignore.io/api/codeblocks
+
+### CodeBlocks ###
+# specific to CodeBlocks IDE
+*.layout
+*.depend
+
+# generated directories
+bin/
+obj/
+
+#---- End of https://www.gitignore.io/api/codeblocks
+
 # Guards for solution files and folders
 **/*-p.[ch]
 **/*-p.[ch]pp
