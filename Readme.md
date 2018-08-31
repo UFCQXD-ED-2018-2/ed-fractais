@@ -8,21 +8,27 @@ O mais importante é entender o componente fundamental do desenho, e onde estão
 
 ## Instalação
 
+Para compilar e executar os códigos desta atividade, é necessário usar a biblioteca gráfica _SFML_. Além disso, para usar o _Qt Creator_, é necessário ainda instalar o _Qt5_. Abaixo estão os comandos para algumas distribuições Linux e para _Windows_ para instalação dessas bibliotecas.
+
 ### Ubuntu (e derivados do Debian)
 ```bash
-sudo apt-get install libsfml-dev
+sudo apt-get install libsfml-dev qt5-default qtcreator
 ```
 ### Fedora (e derivados do Red Hat)
 ```bash
-sudo dnf install SFML-devel
+sudo dnf install SFML-devel qt5-devel qt-creator
 ```
 ### Manjaro (e derivados do Arch)
 ```bash
-sudo pacman -S sfml
+sudo pacman -S sfml qt5-base qtcreator
 ```
 
 ### Windows
 Vá para o site [https://www.sfml-dev.org/download.php](https://www.sfml-dev.org/download.php), clique no link rotulado com "*Latest stable version*", depois escolha, sa seção Windows, o link de download de acordo com o compilador que você usa. Recomendamos usar o *GCC/MinGW*.
+
+O link a seguir possui instruções de configuração das IDEs para uso da biblioteca gráfica: https://www.sfml-dev.org/tutorials/2.5/ (em inglês).
+
+Para baixar o _Qt_ e o _Qt Creator_, vá para o site http://www.qt.io, clique no link _"Download. Try. Buy."_ no topo da página, depois escolha a versão _Open Source_ e, na página que será aberta, escolha a versão do seu Windows para ser baixada (pode ser necessário clicar em _"view other options"_). Instale o executável baixado.
 
 
 ## Uso
